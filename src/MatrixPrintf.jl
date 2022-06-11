@@ -2,6 +2,8 @@ module MatrixPrintf
 
   using Printf
 
+  export msprintf, mprintf
+
   function integer_digit(x)
     return x<1 ? 1 : Int64(floor(log10(x))+1)
   end
