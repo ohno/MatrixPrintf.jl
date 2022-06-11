@@ -3,6 +3,9 @@ uuid = "6f9b5f59-caac-4cea-bfc9-8748cad0641f"
 authors = ["Shuhei Ohno"]
 version = "0.1.0"
 
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
 [compat]
 julia = "1"
 
